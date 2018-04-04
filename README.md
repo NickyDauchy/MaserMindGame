@@ -1,2 +1,2 @@
-# MaserMindGame
-MaserMindGame application 
+# MasterMindGame
+MasterMindGame application 
