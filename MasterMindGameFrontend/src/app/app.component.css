@@ -1,0 +1,16 @@
+#PinOptions {
+        vertical-align:top;
+    float:left;
+    width:50%;
+}
+#GameTable {
+    float:right;
+    width:50%;
+}
+#PinOptions, #GameTable{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    
+  }
+  
