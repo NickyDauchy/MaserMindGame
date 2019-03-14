@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+.pin-yellow {
+    cursor: url('/assets/images/shadow_ball_1oMBNMouse.png') , pointer;	
+  }
+  .pin-red {
+    cursor: url('/assets/images/shadow_ball_2oMBNMouse.png') , pointer;	
+  }
+  .no-pin {
+    cursor: pointer;	
+  }
