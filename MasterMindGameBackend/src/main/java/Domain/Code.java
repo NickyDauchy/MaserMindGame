@@ -3,13 +3,18 @@ package Domain;
 public class Code {
 
     private Pin[] code;
-    private Pin[] guess;
 
-    public void makeGuess(Pin... pins) {
-        this.guess = pins;
+
+    public Feedback makeGuess(Guess guess) {
+        compareGuessToCode(guess);
+        return null;
     }
 
-    public void enterCode(Pin... pins) {
+    private void compareGuessToCode(Guess guess) {
+        throw new UnsupportedOperationException("Implement me after test!");
+    }
+
+    public void create(Pin... pins) {
         this.code = pins;
     }
 }
